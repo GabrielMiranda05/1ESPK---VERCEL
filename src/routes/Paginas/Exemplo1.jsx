@@ -7,7 +7,7 @@ export default function Exemplo1() {
 
 
   useEffect(()=>{
-    fetch("http://localhost:5000/produtos")
+    fetch("https://1-espk-database-server.vercel.app/produto")
     .then((res)=>{
       return res.json()
     }).then((res)=>
